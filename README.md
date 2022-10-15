@@ -4,6 +4,6 @@
 * Class Repo: https://github.com/compagnb/FA22-Python
 * [Vocabulary Sheet](wkNotes/vocab.md)
 * [Keywords Sheet](wkNotes/keywords.md)
-* [Students Folders](studentWork)
+* [Students Folders](Python)
 
 ### Course Outline
