@@ -9,9 +9,11 @@ for x in range(0,4):
 t = turtle.Turtle()
 t.shape("turtle")
 t.color("blue")
+t.startShape()
 for x in range(0,4):
     t.forward(200)
     t.backward(200)   
     t.left(90)
+t.endShape()
     
     
