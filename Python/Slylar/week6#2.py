@@ -1,9 +1,7 @@
 ## Drone Library
 from Mambo import Mambo
-mamboAddress= (e0:14:0a:ad:3d:d0)
-mambo drone
-
-
+mamboAddress= "e0:14:0a:ad:3d:d0"
+mambo = Mambo(mamboAddress, use_wifi=False)
 
 ## conect to the drone
 print("trying to connect...")

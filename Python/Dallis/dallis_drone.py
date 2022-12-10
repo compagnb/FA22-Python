@@ -12,9 +12,9 @@ if(success):
 
       print("Take Off!")
       mambo.safe_takeoff(5)
-
+      mambo.fly_direct(roll=50, pitch=50,yaw=50,vertical_movement=50, duration=3)
       print("Land!!!")
       mambo.safe_land(5)
 
-      print "disconnect from Mambo.")
-    mambo.disconnect()
+      print ("disconnect from Mambo.")
+      mambo.disconnect()

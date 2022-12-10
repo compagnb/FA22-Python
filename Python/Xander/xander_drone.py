@@ -6,11 +6,11 @@ from Mambo import Mambo
 mamboAddress="e0:14:0a:ad:3d:d0"
 
 ##creates an instance of an object Mambo
-mamboDrone = Mambo(mamboAdddress, use_wifi=False)
+mambo = Mambo(mamboAdddress, use_wifi=False)
 
 ## connect to the drone
 print("trying to connect...")
-success=mambo.connect(num_retrys=3)
+success=mambo.connect(num_retries=3)
 print("connected: %s" % success)
 
 ## if we are connected I wanna take off!!!
